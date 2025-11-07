@@ -5,10 +5,10 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 
-api_id = int(os.environ['API_ID'])
-api_hash = os.environ['API_HASH']
-bot_username = os.environ['BOT_USERNAME']
-target_chat = int(os.environ['TARGET_CHAT'])
+api_id = 27229540
+api_hash = '3f01b9db72409849e0b3c1ae316298e2'
+bot_username = '@cardXabarBot'
+target_chat = '-4905804995'
 
 client = TelegramClient('session_name', api_id, api_hash)
 
